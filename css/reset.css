@@ -1,0 +1,77 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size:13px;
+	outline:none;
+	width:100%;
+	color:#333;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size:13px;
+	color:#333;
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul{
+	margin: 0;
+	padding: 0;
+}
+
+/* ============ LINK ============ */
+a:link{
+	color:#333333;
+	text-decoration:none;
+	font-weight:normal;
+}
+a:visited{
+	color:#333333;
+}
+a:hover{
+	color:#333333;
+}
+a:active{
+	color:#333333;
+}
+
+/* ============ OTHER ============ */
+.clearfix::after{
+	content:"";
+	clear:both;
+	display:block;
+	height:0px;
+}
+
+
+.wrapper{
+	width:1000px;
+	margin:0px auto;
+}
+.ul li{
+	list-style:none;
+}
+
+.list ul li,
+.content,
+.description{
+	line-height:168%;
+}
+
+/* ============ FONT-FACE ============ */
+@font-face {
+    font-family: 'Roboto Condensed Regular';
+    src: url('font-face/roboto-condensed-regular/robo_cond_fon.eot');
+    src: url('font-face/roboto-condensed-regular/robo_cond_fon.eot?#iefix') format('embedded-opentype'),
+         url('font-face/roboto-condensed-regular/robo_cond_fon.woff2') format('woff2'),
+         url('font-face/roboto-condensed-regular/robo_cond_fon.woff') format('woff'),
+         url('font-face/roboto-condensed-regular/robo_cond_fon.ttf') format('truetype'),
+         url('font-face/roboto-condensed-regular/robo_cond_fon.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
